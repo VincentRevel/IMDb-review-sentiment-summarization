@@ -21,7 +21,7 @@ The IMDb Movie Scraper and Sentiment Analysis project aims to automate the proce
 
 ### Completed Progress
 
-- Successfully fine tuning FLAN T5 for sentiment analysis tasks with results of 0.94 accuracy and 0.237 test loss.
+- Successfully fine tuning FLAN T5 for sentiment analysis tasks with results of **0.94 accuracy** and **0.237 test loss**.
 - Successfully scraped important information from the IMDb website using beautiful soup.
   
 ### Current Progress
