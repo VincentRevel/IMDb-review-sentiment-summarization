@@ -1,7 +1,21 @@
 {
   "version": "1.0",
-  "truncation": null,
-  "padding": null,
+  "truncation": {
+    "direction": "Right",
+    "max_length": 512,
+    "strategy": "LongestFirst",
+    "stride": 0
+  },
+  "padding": {
+    "strategy": {
+      "Fixed": 512
+    },
+    "direction": "Right",
+    "pad_to_multiple_of": null,
+    "pad_id": 0,
+    "pad_type_id": 0,
+    "pad_token": "<pad>"
+  },
   "added_tokens": [
     {
       "id": 0,
@@ -950,7 +964,8 @@
   "pre_tokenizer": {
     "type": "Metaspace",
     "replacement": "▁",
-    "add_prefix_space": true
+    "prepend_scheme": "always",
+    "split": true
   },
   "post_processor": {
     "type": "TemplateProcessing",
@@ -1009,7 +1024,8 @@
   "decoder": {
     "type": "Metaspace",
     "replacement": "▁",
-    "add_prefix_space": true
+    "prepend_scheme": "always",
+    "split": true
   },
   "model": {
     "type": "Unigram",
@@ -129415,6 +129431,7 @@
         "<extra_id_0>",
         0.0
       ]
-    ]
+    ],
+    "byte_fallback": false
   }
 }
