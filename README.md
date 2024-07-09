@@ -26,11 +26,10 @@ The IMDb Movie Scraper and Sentiment Analysis project aims to automate the proce
   
 ### Current Progress
 
-- Working on improving summarization task fine tuning result.
+- Working on deploying functional pipeline for this project.
 - Continuous testing and refinement ongoing.
 
 ### Future Plans
 
-- Enhance summarization algorithm for more accurate results.
 - Developing dashboards.
 - Automation.
